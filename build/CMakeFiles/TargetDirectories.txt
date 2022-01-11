@@ -1,0 +1,13 @@
+/home/joelx/CoolProject/build/CMakeFiles/rebuild_cache.dir
+/home/joelx/CoolProject/build/CMakeFiles/edit_cache.dir
+/home/joelx/CoolProject/build/CMakeFiles/format.dir
+/home/joelx/CoolProject/build/Server/CMakeFiles/rebuild_cache.dir
+/home/joelx/CoolProject/build/Server/CMakeFiles/edit_cache.dir
+/home/joelx/CoolProject/build/Server/src/CMakeFiles/rebuild_cache.dir
+/home/joelx/CoolProject/build/Server/src/CMakeFiles/edit_cache.dir
+/home/joelx/CoolProject/build/Server/src/CMakeFiles/server.dir
+/home/joelx/CoolProject/build/Application/CMakeFiles/rebuild_cache.dir
+/home/joelx/CoolProject/build/Application/CMakeFiles/edit_cache.dir
+/home/joelx/CoolProject/build/Application/src/CMakeFiles/rebuild_cache.dir
+/home/joelx/CoolProject/build/Application/src/CMakeFiles/edit_cache.dir
+/home/joelx/CoolProject/build/Application/src/CMakeFiles/Main.dir

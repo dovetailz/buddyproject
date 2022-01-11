@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Server/include/server.h
+map
+-
+string
+-
+thread
+-
+
+/home/joelx/CoolProject/Server/src/server.cpp
+server.h
+/home/joelx/CoolProject/Server/src/server.h
+fcntl.h
+-
+netdb.h
+-
+netinet/in.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/socket.h
+-
+sys/types.h
+-
+unistd.h
+-
+iostream
+-
+string
+-
+vector
+-
+

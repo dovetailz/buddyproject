@@ -1,0 +1,181 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/x86_64-linux-gnu-gcc-10 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/x86_64-linux-gnu-gcc-10 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/x86_64-linux-gnu-gcc-10 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/x86_64-linux-gnu-gcc-10 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/x86_64-linux-gnu-gcc-10 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/x86_64-linux-gnu-gcc-10 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/x86_64-linux-gnu-gcc-10 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/x86_64-linux-gnu-gcc-10 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /bin/c++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /bin/c++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /bin/c++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /bin/c++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/joelx/CoolProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_50bc7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_50bc7.dir/build.make CMakeFiles/cmTC_50bc7.dir/build
+gmake[1]: Entering directory '/home/joelx/CoolProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50bc7.dir/CheckSymbolExists.c.o
+/bin/x86_64-linux-gnu-gcc-10    -o CMakeFiles/cmTC_50bc7.dir/CheckSymbolExists.c.o   -c /home/joelx/CoolProject/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_50bc7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50bc7.dir/link.txt --verbose=1
+/bin/x86_64-linux-gnu-gcc-10      CMakeFiles/cmTC_50bc7.dir/CheckSymbolExists.c.o  -o cmTC_50bc7 
+/usr/bin/ld: CMakeFiles/cmTC_50bc7.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_50bc7.dir/build.make:87: cmTC_50bc7] Error 1
+gmake[1]: Leaving directory '/home/joelx/CoolProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:121: cmTC_50bc7/fast] Error 2
+
+File /home/joelx/CoolProject/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

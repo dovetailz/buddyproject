@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/joelx/CoolProject/build/Server/src",
+  "command": "/bin/c++   -I/home/joelx/CoolProject/Server/include    -o CMakeFiles/server.dir/server.cpp.o -c /home/joelx/CoolProject/Server/src/server.cpp",
+  "file": "/home/joelx/CoolProject/Server/src/server.cpp"
+},
+{
+  "directory": "/home/joelx/CoolProject/build/Application/src",
+  "command": "/bin/c++   -I/home/joelx/CoolProject/Server/include -I/home/joelx/CoolProject/Application/include    -pthread -o CMakeFiles/Main.dir/main.cpp.o -c /home/joelx/CoolProject/Application/src/main.cpp",
+  "file": "/home/joelx/CoolProject/Application/src/main.cpp"
+}
+]

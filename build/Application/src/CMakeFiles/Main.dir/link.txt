@@ -1,0 +1,1 @@
+/bin/c++     CMakeFiles/Main.dir/main.cpp.o  -o ../../Main ../../Server/src/libserver.a -pthread 

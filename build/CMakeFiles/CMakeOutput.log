@@ -1,0 +1,73 @@
+The system is: Linux - sh: 0: getcwd() failed: No such file or directory
+4.19.0-17-amd64 - sh: 0: getcwd() failed: No such file or directory
+x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/joelx/CoolProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_514c6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_514c6.dir/build.make CMakeFiles/cmTC_514c6.dir/build
+gmake[1]: Entering directory '/home/joelx/CoolProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_514c6.dir/testCCompiler.c.o
+/bin/x86_64-linux-gnu-gcc-10    -o CMakeFiles/cmTC_514c6.dir/testCCompiler.c.o   -c /home/joelx/CoolProject/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_514c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_514c6.dir/link.txt --verbose=1
+/bin/x86_64-linux-gnu-gcc-10      CMakeFiles/cmTC_514c6.dir/testCCompiler.c.o  -o cmTC_514c6 
+gmake[1]: Leaving directory '/home/joelx/CoolProject/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/joelx/CoolProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d1448/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d1448.dir/build.make CMakeFiles/cmTC_d1448.dir/build
+gmake[1]: Entering directory '/home/joelx/CoolProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1448.dir/CMakeCCompilerABI.c.o
+/bin/x86_64-linux-gnu-gcc-10    -o CMakeFiles/cmTC_d1448.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d1448
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1448.dir/link.txt --verbose=1
+/bin/x86_64-linux-gnu-gcc-10      CMakeFiles/cmTC_d1448.dir/CMakeCCompilerABI.c.o  -o cmTC_d1448 
+gmake[1]: Leaving directory '/home/joelx/CoolProject/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/joelx/CoolProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_91364/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_91364.dir/build.make CMakeFiles/cmTC_91364.dir/build
+gmake[1]: Entering directory '/home/joelx/CoolProject/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_91364.dir/testCXXCompiler.cxx.o
+/bin/c++     -o CMakeFiles/cmTC_91364.dir/testCXXCompiler.cxx.o -c /home/joelx/CoolProject/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_91364
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91364.dir/link.txt --verbose=1
+/bin/c++       CMakeFiles/cmTC_91364.dir/testCXXCompiler.cxx.o  -o cmTC_91364 
+gmake[1]: Leaving directory '/home/joelx/CoolProject/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/joelx/CoolProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_935c4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_935c4.dir/build.make CMakeFiles/cmTC_935c4.dir/build
+gmake[1]: Entering directory '/home/joelx/CoolProject/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_935c4.dir/CMakeCXXCompilerABI.cpp.o
+/bin/c++     -o CMakeFiles/cmTC_935c4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_935c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_935c4.dir/link.txt --verbose=1
+/bin/c++       CMakeFiles/cmTC_935c4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_935c4 
+gmake[1]: Leaving directory '/home/joelx/CoolProject/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/joelx/CoolProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a14ac/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a14ac.dir/build.make CMakeFiles/cmTC_a14ac.dir/build
+gmake[1]: Entering directory '/home/joelx/CoolProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a14ac.dir/CheckIncludeFile.c.o
+/bin/x86_64-linux-gnu-gcc-10    -o CMakeFiles/cmTC_a14ac.dir/CheckIncludeFile.c.o   -c /home/joelx/CoolProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a14ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a14ac.dir/link.txt --verbose=1
+/bin/x86_64-linux-gnu-gcc-10      CMakeFiles/cmTC_a14ac.dir/CheckIncludeFile.c.o  -o cmTC_a14ac 
+gmake[1]: Leaving directory '/home/joelx/CoolProject/build/CMakeFiles/CMakeTmp'
+
+
