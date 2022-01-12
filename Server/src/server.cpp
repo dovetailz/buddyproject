@@ -157,8 +157,8 @@ void Server::HandleCommunication(int fd) {
 
       auto partner_fd = IsPartnerOnline(receiver);
       if (partner_fd != -1) {
-        std::string message = sender + " says hi\n";
-        send(partner_fd, message.c_str(), message.size(), 0);
+        char ch = '1';
+        send(partner_fd, &ch,  1, 0);
         // std::cout << receiver << " is online\n";
       } else {
         std::cout << receiver << " is offline\n";
