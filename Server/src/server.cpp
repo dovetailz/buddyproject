@@ -164,7 +164,8 @@ void Server::HandleCommunication(int fd) {
         std::cout << receiver << " is offline\n";
       }
     } else {
-      std::cout << "Unknown command" << std::endl;
+      // std::cout << "Unknown command: " << buff << std::endl;
+      printf("Unknown command: %s\n", buff);
     }
   }
 }
