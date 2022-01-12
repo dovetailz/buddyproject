@@ -63,6 +63,7 @@ int Server::StartServer() {
 
     threads.emplace(conn, std::thread(&Server::HandleConnection, this, conn));
     threads.at(conn).detach();
+    sleep(10);
   }
 
   //   for (auto& t : threads) {
